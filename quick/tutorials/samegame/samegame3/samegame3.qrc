@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file>Button.qml</file>
         <file>Block.qml</file>
+        <file>Dialog.qml</file>
         <file>samegame.qml</file>
         <file>samegame.js</file>
     </qresource>
