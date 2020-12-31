@@ -67,3 +67,6 @@ compile_commands.json
 # 忽略visual studio目录
 *.vs/
 *out/
+
+# 不忽略特定文件夹
+!borderlayout/
