@@ -70,3 +70,6 @@ compile_commands.json
 
 # 不忽略特定文件夹
 !borderlayout/
+
+# 不忽略特定文件夹
+!flowlayout/
