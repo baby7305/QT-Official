@@ -50,37 +50,37 @@ qt6_add_resources(xmlhttprequest "xmlhttprequest"
     FILES
         ${xmlhttprequest_resource_files}
 )
-set_source_files_properties("../../quick/shared/Button.qml"
+set_source_files_properties("../quick/shared/Button.qml"
     PROPERTIES QT_RESOURCE_ALIAS "Button.qml"
 )
-set_source_files_properties("../../quick/shared/CheckBox.qml"
+set_source_files_properties("../quick/shared/CheckBox.qml"
     PROPERTIES QT_RESOURCE_ALIAS "CheckBox.qml"
 )
-set_source_files_properties("../../quick/shared/Label.qml"
+set_source_files_properties("../quick/shared/Label.qml"
     PROPERTIES QT_RESOURCE_ALIAS "Label.qml"
 )
-set_source_files_properties("../../quick/shared/LauncherList.qml"
+set_source_files_properties("../quick/shared/LauncherList.qml"
     PROPERTIES QT_RESOURCE_ALIAS "LauncherList.qml"
 )
-set_source_files_properties("../../quick/shared/SimpleLauncherDelegate.qml"
+set_source_files_properties("../quick/shared/SimpleLauncherDelegate.qml"
     PROPERTIES QT_RESOURCE_ALIAS "SimpleLauncherDelegate.qml"
 )
-set_source_files_properties("../../quick/shared/Slider.qml"
+set_source_files_properties("../quick/shared/Slider.qml"
     PROPERTIES QT_RESOURCE_ALIAS "Slider.qml"
 )
-set_source_files_properties("../../quick/shared/TextField.qml"
+set_source_files_properties("../quick/shared/TextField.qml"
     PROPERTIES QT_RESOURCE_ALIAS "TextField.qml"
 )
-set_source_files_properties("../../quick/shared/images/back.png"
+set_source_files_properties("../quick/shared/images/back.png"
     PROPERTIES QT_RESOURCE_ALIAS "images/back.png"
 )
-set_source_files_properties("../../quick/shared/images/checkmark.png"
+set_source_files_properties("../quick/shared/images/checkmark.png"
     PROPERTIES QT_RESOURCE_ALIAS "images/checkmark.png"
 )
-set_source_files_properties("../../quick/shared/images/next.png"
+set_source_files_properties("../quick/shared/images/next.png"
     PROPERTIES QT_RESOURCE_ALIAS "images/next.png"
 )
-set_source_files_properties("../../quick/shared/images/slider_handle.png"
+set_source_files_properties("../quick/shared/images/slider_handle.png"
     PROPERTIES QT_RESOURCE_ALIAS "images/slider_handle.png"
 )
 set(quick_shared_resource_files
@@ -101,7 +101,7 @@ qt6_add_resources(xmlhttprequest "quick_shared"
     PREFIX
         "/quick/shared"
     BASE
-        "../../quick/shared"
+        "../quick/shared"
     FILES
         ${quick_shared_resource_files}
 )

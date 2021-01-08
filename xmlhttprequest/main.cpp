@@ -47,5 +47,5 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-#include "../../quick/shared/shared.h"
+#include "../quick/shared/shared.h"
 DECLARATIVE_EXAMPLE_MAIN(qml/xmlhttprequest/xmlhttprequest)
