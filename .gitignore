@@ -67,3 +67,9 @@ compile_commands.json
 # 忽略visual studio目录
 *.vs/
 *out/
+
+# 不忽略特定目录
+!graphicsview/anchorlayout
+!graphicsview/flowlayout
+!graphicsview/simpleanchorlayout
+!graphicsview/weatheranchorlayout
